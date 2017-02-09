@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ParseTsgReplays": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\Arma\\Unpack"
+    }
+  }
+}
