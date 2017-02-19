@@ -160,7 +160,7 @@ namespace ParseTsgReplays
                             UnitId = id
                         };
 
-                        if (from.StartsWith("~"))
+                        if (from.StartsWith("~") && !to.StartsWith("~"))
                         {
                             e.IsEnter = true;
                             e.User = to;

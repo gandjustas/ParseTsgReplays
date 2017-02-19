@@ -21,6 +21,10 @@ namespace ParseTsgReplays
             }
 
             var rebuildBase = false;
+            if (args.Length == 2 && args[1] == "-rebuild")
+            {
+                rebuildBase = true;
+            }
 
             var db = new ReplaysContext();
             db.Database.Migrate();
